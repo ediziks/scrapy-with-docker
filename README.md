@@ -1,2 +1,2 @@
 # hb-product-app
- hepsiburada produnt crawler
+ hepsiburada product crawler
