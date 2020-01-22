@@ -1,0 +1,2 @@
+Scrapy
+mysql-connector-python
