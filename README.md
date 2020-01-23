@@ -3,39 +3,6 @@
 
 Tested Only On Linux And Windows.
 
-> file tree:
-- |   .gitattributes
-- |   .gitignore
-- |   docker-compose.yml
-- |   Dockerfile
-- |   LICENSE
-- |   README.md
-- |   requirements.txt
-- |   scrapy.cfg
-- |   sql-script.sql
-- |
-- \---hepsiburadaProject
-- ---|   items.py
-- ---|   middlewares.py
-- ---|   pipelines.py
-- ---|   settings.py
-- ---|   settings.pyc
-- ---|   __init__.py
-- ---|   __init__.pyc
-- ---|+---spiders
-- ---|--|   products.py
-- ---|--|   products.pyc
-- ---|--|   __init__.py
-- ---|--|   __init__.pyc
-- ---|--|
-- ---|--\---__pycache__
-- ---|           products.cpython-37.pyc
-- ---|           __init__.cpython-37.pyc
-- ---|--\---__pycache__
-- ---|       settings.cpython-37.pyc
-- ---|       __init__.cpython-37.pyc
-
-
 to run:
 
 in cmd
