@@ -17,7 +17,7 @@ services:
     expose:  
       - "3306"
     volumes:
-      #- ./mydb:/var/lib/mysql:rw
+      #- ./mydb:/var/lib/mysql:rw      
       - ./sql-script.sql:/docker-entrypoint-initdb.d/sql-script.sql
   python:
       container_name: python
