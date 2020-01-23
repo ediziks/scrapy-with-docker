@@ -63,8 +63,8 @@ Needed:
 After then:
 
 go: 
-+---spiders
---|__|___products.py
+- +---spiders
+- --|__|___products.py
 
 in the products.py file, add your product urls to `start_url="~your url1~,~your url2~"` alike and then save the file
 
