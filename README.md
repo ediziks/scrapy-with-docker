@@ -96,10 +96,10 @@ in another cmd/terminal:
     
     `mysql> SHOW DATABASES;`
     +----------------------+
-    | Database                   |
+    | Database             |
     +----------------------+
-    | information_schema |
-    | products_db              |
+    | information_schema   |
+    | products_db          |
     +----------------------+
     2 rows in set (0.00 sec)
     
@@ -115,7 +115,7 @@ in another cmd/terminal:
     |          1 | Omo Active 10 kg Matik Toz Çamaşır Deterjanı                                                                | https://productimages.hepsiburada.net/s/33/500/10421806006322.jpg | 53.29 TRY     |
     |          2 | Kefo Kozalak Nargile Takımı                                                                                 | https://productimages.hepsiburada.net/s/26/500/10149223202866.jpg | 185.00 TRY    |
     |          3 | Lenovo ThinkPad X1 C7 Intel Core i7 8565U 16GB 1TB SSD Windows 10 Pro 14" Taşınabilir Bilgisayar 20QDS23L00 |
-    +------------+-----------------------------+-------------------------------------------------------------------+-----------------------+
+    +------------+-------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-----------------------+
     3 rows in set (0.00 sec)
 	
 
