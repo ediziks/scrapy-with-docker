@@ -114,7 +114,7 @@ in another cmd/terminal:
     +------------+-------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+---------------+
     |          1 | Omo Active 10 kg Matik Toz Çamaşır Deterjanı                                                                | https://productimages.hepsiburada.net/s/33/500/10421806006322.jpg | 53.29 TRY     |
     |          2 | Kefo Kozalak Nargile Takımı                                                                                 | https://productimages.hepsiburada.net/s/26/500/10149223202866.jpg | 185.00 TRY    |
-    |          3 | Lenovo ThinkPad X1 C7 Intel Core i7 8565U 16GB 1TB SSD Windows 10 Pro 14" Taşınabilir Bilgisayar 20QDS23L00 | https://productimages.hepsiburada.net/s/34/500/10455905665074.jpg
+    |          3 | Lenovo ThinkPad X1 C7 Intel Core i7 8565U 16GB 1TB SSD Windows 10 Pro 14" Taşınabilir Bilgisayar 20QDS23L00 | https://productimages.hepsiburada.net/s/34/500/10455905665074.jpg | 17399.00 TRY  |
     +------------+-------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+---------------+
     3 rows in set (0.00 sec)
 	
