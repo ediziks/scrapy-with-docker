@@ -71,11 +71,12 @@ in the products.py file, add your product urls to `start_url="~your url1~,~your 
 
 Then:
 
+run the docker-compose command below in cmd/terminal;
 
-`...\hb-product-app> docker-compose up --build`
+`Drive:\...\hb-product-app> docker-compose up --build`
 
 
-in another cmd/terminal:
+in another cmd/terminal;
 
 
     
