@@ -8,7 +8,7 @@
 #COPY ./sql-scripts/ /docker-entrypoint-initdb.d/
 
 
-FROM python:3.9.0a2
+FROM python:3.7.6
 
 RUN pip install --upgrade pip
 

@@ -1,3 +1,5 @@
+SET GLOBAL explicit_defaults_for_timestamp = 1;
+
 CREATE DATABASE IF NOT EXISTS products_db;
 
 USE products_db;
