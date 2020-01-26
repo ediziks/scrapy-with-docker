@@ -31,7 +31,7 @@ class ProductsSpider(scrapy.Spider):
     def close(self, reason):
         csv_file = max(glob.iglob('*.csv'), key=os.path.getctime)
         mydb = mysql.connector.connect(host='mysql',
-                                       user='suser',
+                                       user='root',
                                        passwd='psswd',
                                        db='products_db')
         cursor = mydb.cursor()
