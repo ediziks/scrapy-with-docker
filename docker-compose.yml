@@ -21,10 +21,14 @@ services:
       #- ./mydb:/var/lib/mysql:rw      
   python:
       container_name: python
-      depends_on: 
-        - mysql
-      links:
-        - mysql:mysql
+      deploy:
+        restart_policy:
+          delay: 20s
+          max_attempts: 2
+          window: 30s
+      # restart: on-failure
+      # depends_on: 
+      #   - mysql
       command: scrapy crawl products -a start_urls="https://www.hepsiburada.com/omo-active-10-kg-matik-toz-camasir-deterjani-p-HBV00000PKVL8,https://www.hepsiburada.com/kefo-kozalak-nargile-takimi-p-HBV00000J2R84,https://www.hepsiburada.com/lenovo-thinkpad-x1-c7-intel-core-i7-8565u-16gb-1tb-ssd-windows-10-pro-14-tasinabilir-bilgisayar-20qds23l00-p-HBV00000Q3E0X" -o pro.csv
       build:
         context: .
