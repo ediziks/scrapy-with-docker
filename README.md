@@ -66,7 +66,7 @@ go:
 > file tree:
 - |   .gitattributes
 - |   .gitignore
-##- |   docker-compose.yml
+- |   docker-compose.yml
 
 in the docker-compose.yml file, add your product urls `start_urls="~your url1~,~your url2~"` alike and then save the file.
 
