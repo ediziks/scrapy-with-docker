@@ -63,10 +63,12 @@ Needed:
 After then:
 
 go: 
-- +---spiders
-- --|__|___products.py
+> file tree:
+- |   .gitattributes
+- |   .gitignore
+- |   #docker-compose.yml
 
-in the products.py file, add your product urls to `start_url="~your url1~,~your url2~"` alike and then save the file
+in the docker-compose.yml file, add your product urls `start_urls="~your url1~,~your url2~"` alike and then save the file.
 
 
 Then:
