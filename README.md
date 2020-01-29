@@ -13,7 +13,7 @@ Tested Only On Linux And Windows.
 - |   requirements.txt
 - |   scrapy.cfg
 - |   sql-script.sql
-- |
+- |   .env
 - \---hepsiburadaProject
 - ---|   items.py
 - ---|   middlewares.py
