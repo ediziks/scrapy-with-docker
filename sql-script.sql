@@ -8,4 +8,4 @@ CREATE TABLE IF NOT EXISTS products_table (
 product_id INT AUTO_INCREMENT PRIMARY KEY,
 product_name VARCHAR(255),
 product_image VARCHAR(255),
-product_price VARCHAR(50));
+product_price FLOAT(12,3) NOT NULL);

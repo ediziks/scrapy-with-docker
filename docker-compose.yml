@@ -5,13 +5,13 @@ services:
     image: mysql:5.7
     restart: always
     container_name: mysql
-    environment:
-      #- MYSQL_HOST=127.0.0.1
-      - MYSQL_ROOT_PASSWORD=psswd
-      - MYSQL_USER=suser
-      - MYSQL_PASSWORD=psswd
-      - MYSQL_DATABASE=products_db
-      #- MYSQL_ALLOW_EMPTY_PASSWORD=yes
+    env_file:
+      - ".env"
+    #environment:
+      #- MYSQL_ROOT_PASSWORD=psswd
+      #- MYSQL_USER=suser
+      #- MYSQL_PASSWORD=psswd
+      #- MYSQL_DATABASE=products_db
     ports:
       - "3306:3306"
     expose:  
