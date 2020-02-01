@@ -41,7 +41,7 @@ Tested Only On Linux And Windows.
 in cmd
 `Drive:\> cd ~repository location~ 
 `
-or pull from https://github.com/eemektas/hb-product-app.git
+ or pull from https://github.com/eemektas/hb-product-app.git
 
 
 >Needed:
