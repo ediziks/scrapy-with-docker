@@ -4,81 +4,79 @@
 Tested Only On Linux And Windows.
 
 > file tree:
-- |   .gitattributes
-- |   .gitignore
-- |   docker-compose.yml
-- |   Dockerfile
-- |   LICENSE
-- |   README.md
-- |   requirements.txt
-- |   scrapy.cfg
-- |   sql-script.sql
-- |   .env
-- \---hepsiburadaProject
-- ---|   items.py
-- ---|   middlewares.py
-- ---|   pipelines.py
-- ---|   settings.py
-- ---|   settings.pyc
-- ---|   __init__.py
-- ---|   __init__.pyc
-- ---|+---spiders
-- ---|--|   products.py
-- ---|--|   products.pyc
-- ---|--|   __init__.py
-- ---|--|   __init__.pyc
-- ---|--|
-- ---|--\---__pycache__
-- ---|           products.cpython-37.pyc
-- ---|           __init__.cpython-37.pyc
-- ---|--\---__pycache__
-- ---|       settings.cpython-37.pyc
-- ---|       __init__.cpython-37.pyc
+	- |   .gitattributes
+	- |   .gitignore
+	- |   docker-compose.yml
+	- |   Dockerfile
+	- |   LICENSE
+	- |   README.md
+	- |   requirements.txt
+	- |   scrapy.cfg
+	- |   sql-script.sql
+	- |   .env
+	- \---hepsiburadaProject
+	- ---|   items.py
+	- ---|   middlewares.py
+	- ---|   pipelines.py
+	- ---|   settings.py
+	- ---|   settings.pyc
+	- ---|   __init__.py
+	- ---|   __init__.pyc
+	- ---|+---spiders
+	- ---|--|   products.py
+	- ---|--|   products.pyc
+	- ---|--|   __init__.py
+	- ---|--|   __init__.pyc
+	- ---|--|
+	- ---|--\---__pycache__
+	- ---|           products.cpython-37.pyc
+	- ---|           __init__.cpython-37.pyc
+	- ---|--\---__pycache__
+	- ---|       settings.cpython-37.pyc
+	- ---|       __init__.cpython-37.pyc
 
 
-to run:
+To Run:
 
-in cmd
-`Drive:\> cd repository location 
-`
-or pull from https://github.com/eemektas/hb-product-app.git
+	in cmd
+	`Drive:\> cd ~repository location~ 
+	`
+	or pull from https://github.com/eemektas/hb-product-app.git
 
 
 Needed:
 
-- Docker/docker-compose
-   	Installation
-   	Download Docker.
-   	Double-click InstallDocker.msi to run the installer.
-   	Follow the Install Wizard: accept the license, authorize the installer, and proceed with the install.
-   	Click Finish to launch Docker.
-   	Docker starts automatically.
-   	Docker loads a “Welcome” window giving you tips and access to the Docker documentation.
-   	That's it!
-- MySQL
-- mysql-connector-python
-- Scrapy
+	- Docker/docker-compose
+		Installation
+		Download Docker.
+		Double-click InstallDocker.msi to run the installer.
+		Follow the Install Wizard: accept the license, authorize the installer, and proceed with the install.
+		Click Finish to launch Docker.
+		Docker starts automatically.
+		Docker loads a “Welcome” window giving you tips and access to the Docker documentation.
+		That's it!
 
 
-After then:
+
+After Then:
 
 go: 
 > file tree:
 - |   .gitattributes
 - |   .gitignore
-- |   docker-compose.yml
+- |   *docker-compose.yml*
 
-in the docker-compose.yml file, add your product urls `start_urls="~your url1~,~your url2~"` alike and then save the file.
+	in the docker-compose.yml file, add your product urls `start_urls="~your url1~,~your url2~"` alike and then save the file.
 
 
 Then:
 
-run the docker-compose command below in cmd/terminal;
+	run the docker-compose command below in cmd/terminal;
 
-`Drive:\...\hb-product-app> docker-compose up --build`
+	`Drive:\...\hb-product-app> docker-compose up --build`
 
 
-in another cmd/terminal;
+Meanwhile in another cmd/terminal;
 
 
     
