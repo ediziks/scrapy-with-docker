@@ -36,29 +36,29 @@ Tested Only On Linux And Windows.
 - ---|       __init__.cpython-37.pyc
 
 
-To Run:
+>To Run:
 
-	in cmd
-	`Drive:\> cd ~repository location~ 
-	`
-	or pull from https://github.com/eemektas/hb-product-app.git
-
-
-Needed:
-
-	- Docker/docker-compose
-		Installation
-		Download Docker.
-		Double-click InstallDocker.msi to run the installer.
-		Follow the Install Wizard: accept the license, authorize the installer, and proceed with the install.
-		Click Finish to launch Docker.
-		Docker starts automatically.
-		Docker loads a “Welcome” window giving you tips and access to the Docker documentation.
-		That's it!
+in cmd
+`Drive:\> cd ~repository location~ 
+`
+or pull from https://github.com/eemektas/hb-product-app.git
 
 
+>Needed:
 
-After Then:
+- Docker/docker-compose	
+	Installation;
+	Download Docker.
+	Double-click InstallDocker.msi to run the installer.
+	Follow the Install Wizard: accept the license, authorize the installer, and proceed with the install.
+	Click Finish to launch Docker.
+	Docker starts automatically.
+	Docker loads a “Welcome” window giving you tips and access to the Docker documentation.
+	That's it!
+
+
+
+>After Then:
 
 go: 
 > file tree:
@@ -66,17 +66,17 @@ go:
 - |   .gitignore
 - |   *docker-compose.yml*
 
-	in the docker-compose.yml file, add your product urls `start_urls="~your url1~,~your url2~"` alike and then save the file.
+in the docker-compose.yml file, add your product urls `start_urls="~your url1~,~your url2~"` alike and then save the file.
 
 
-Then:
+>Then:
 
-	run the docker-compose command below in cmd/terminal;
+run the docker-compose command below in cmd/terminal;
 
-	`Drive:\...\hb-product-app> docker-compose up --build`
+`Drive:\...\hb-product-app> docker-compose up --build`
 
 
-Meanwhile in another cmd/terminal;
+>Meanwhile in another cmd/terminal;
 
 
     
